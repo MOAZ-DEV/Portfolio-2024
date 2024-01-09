@@ -6,5 +6,8 @@ export default defineNuxtConfig({
     timeline: {
       enabled: true
     }
+  },
+  router: {
+    base: "/Portfolio-2024/"
   }
 })
