@@ -1,13 +1,13 @@
 <template>
     <div class="projects-section">
-        <span class="divider"><img src="../assets/divider.svg" alt=""></span>
+        <span class="divider"><img src="public/assets/divider.svg" alt=""></span>
 
         <h1>Selected Projects</h1>
 
         <div class="projects-wrap">
             <Project v-for="dato in dataao" :data="dato" />
         </div> 
-        <span class="divider"><img src="../assets/divider.svg" alt=""></span>
+        <span class="divider"><img src="public/assets/divider.svg" alt=""></span>
     </div>
 </template>
 <script lang="ts">
