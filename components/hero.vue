@@ -1,6 +1,6 @@
 <template>
     <div class="hero-section">
-        <span class="divider"><img src="public/assets/divider.svg" alt=""></span>
+        <span class="divider"><img :src="divider" alt=""></span>
 
         <div class="content-wrap">
             <img src="public/assets/moaaz.png" />
@@ -14,9 +14,12 @@
                     sense to present user best experince.</p>
             </div>
         </div>
-        <span class="divider"><img src="public/assets/divider.svg" alt=""></span>
+        <span class="divider"><img :src="divider" alt=""></span>
         <span class="vector"><img src="public/assets/Vector01.svg" alt=""></span>
 
     </div>
 </template>
+<script>
+import divider from 'public/assets/divider.svg';
+</script>
 <style lang="scss" src="../styling/components.scss"></style>
