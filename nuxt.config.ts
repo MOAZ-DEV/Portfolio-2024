@@ -1,12 +1,15 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: {
+  
+  target: 'static',
+  router: {
+    base: '/Portfolio-2024/'
+  }
+  
+  /*devtools: {
     enabled: true,
-
     timeline: {
-      enabled: true
-      
+      enabled: true 
     }
-    
-  },
+  },*/
 })
