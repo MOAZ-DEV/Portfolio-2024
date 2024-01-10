@@ -15,7 +15,7 @@
             </div>
         </div>
         <span class="divider"><img :src="divider" alt=""></span>
-        <span class="vector"><img src="public/assets/Vector01.svg" alt=""></span>
+        <span class="vector"><img src="../public/assets/Vector01.svg" alt=""></span>
 
     </div>
 </template>
