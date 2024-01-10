@@ -1,9 +1,9 @@
 <template>
     <div class="hero-section">
-        <span class="divider"><img :src="divider" alt=""></span>
+        <span class="divider"><img src="assets/divider.svg"  alt=""></span>
 
         <div class="content-wrap">
-            <img src="public/assets/moaaz.png" />
+            <img src="assets/moaaz.png" />
             <div class="text-wrap">
                 <h1>
                     <span>Hello, I’m Moaaz</span> - an
@@ -14,12 +14,9 @@
                     sense to present user best experince.</p>
             </div>
         </div>
-        <span class="divider"><img :src="divider" alt=""></span>
-        <span class="vector"><img src="../public/assets/Vector01.svg" alt=""></span>
+        <span class="divider"><img src="assets/divider.svg"  alt=""></span>
+        <span class="vector"><img src="assets/Vector01.svg" alt=""></span>
 
     </div>
 </template>
-<script>
-import divider from 'public/assets/divider.svg';
-</script>
 <style lang="scss" src="../styling/components.scss"></style>
