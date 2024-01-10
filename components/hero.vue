@@ -3,7 +3,7 @@
         <span class="divider"><img src="public/assets/divider.svg" alt=""></span>
 
         <div class="content-wrap">
-            <img src="../assets/moaaz.png" />
+            <img src="public/assets/moaaz.png" />
             <div class="text-wrap">
                 <h1>
                     <span>Hello, I’m Moaaz</span> - an
