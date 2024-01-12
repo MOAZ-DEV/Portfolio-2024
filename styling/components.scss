@@ -219,9 +219,9 @@ div.projects-section {
     border-radius: 00 00 45px 45px;
     box-shadow: 0px 175px 0px white;
 
-@include sc(400px) {
-    padding: 25px 12px;
-}
+    @include sc(400px) {
+        padding: 25px 12px;
+    }
 
     h1 {
         font-family: JetBrains Mono;
@@ -254,9 +254,9 @@ div.projects-section {
             padding: 45px 45px;
 
             border-radius: 45px;
-            border-top: 2px solid rgba(255, 255, 255, 0.07);
-            border-right: 2px solid rgba(255, 255, 255, 0.07);
-            border-left: 2px solid rgba(255, 255, 255, 0.07);
+            border-top: 2px solid rgba(255, 255, 255, 0.45);
+            border-right: 2px solid rgba(255, 255, 255, 0.45);
+            border-left: 2px solid rgba(255, 255, 255, 0.45);
 
             transition: background 0.25s;
             z-index: 300;
@@ -280,8 +280,9 @@ div.projects-section {
                 h2 {
                     opacity: 0;
                 }
-                p, a {
-                    opacity: .25;
+                p,
+                a {
+                    opacity: 0.25;
                 }
             }
 
@@ -302,7 +303,7 @@ div.projects-section {
                     font-weight: 500;
                     line-height: 105%;
                     /* 134.4px */
-                    transition: opacity .7s;
+                    transition: opacity 0.7s;
 
                     @include sc(750px) {
                         font-size: 65px;
@@ -317,7 +318,7 @@ div.projects-section {
                     height: fit-content;
                     width: 900px;
 
-                    filter: blur(30px) opacity(.75);
+                    filter: blur(30px) opacity(0.75);
                     transition: filter 1s ease-in-out;
                     transform: translateY(-50%);
                 }
@@ -343,21 +344,22 @@ div.projects-section {
                     }
                 }
 
-                a,p {
-                    transition: opacity .45s;
+                a,
+                p {
+                    transition: opacity 0.45s;
                     filter: none;
                     max-width: 400px;
                 }
                 p {
-                    opacity: .45;
+                    opacity: 0.45;
                     width: stretch;
-                    
+
                     span:not(:last-child):after {
-                        content: ', ';
+                        content: ", ";
                     }
                 }
                 a:hover {
-opacity: 1 !important;
+                    opacity: 1 !important;
                 }
             }
         }
@@ -479,6 +481,13 @@ footer {
         }
     }
 }
+
+div.hero-section, div.projects-section {
+@include sc(75px) {
+    border-radius: 0 0 25px 25px;
+}
+}
+
 @keyframes slip {
     0% {
         transform: translateY(-50%);
