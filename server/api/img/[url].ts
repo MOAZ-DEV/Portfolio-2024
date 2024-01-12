@@ -8,7 +8,7 @@ export default
             CallName = getRouterParam(event, 'url');
 
         list.forEach( p =>
-            p.img === CallName ? result = fs.readFileSync(`public/images/${CallName}`) : null);;
+            p.img === CallName ? result = fs.readFileSync(`/images/${CallName}`) : null);;
 
         return result;
     })
