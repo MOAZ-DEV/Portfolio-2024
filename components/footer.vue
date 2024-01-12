@@ -1,6 +1,6 @@
 <template>
     <footer>
-        <span class="divider"><img src="assets/divider.svg" alt=""></span>
+        <span class="divider"><img src="~/assets/divider.svg" alt=""></span>
         <div class="contact-wrap">
             <div class="box">
                 <h4>
@@ -25,7 +25,7 @@
                 </div>
             </span>
         </div>
-        <span class="divider"><img src="assets/divider.svg" alt=""></span>
+        <span class="divider"><img src="~/assets/divider.svg" alt=""></span>
         <div class="row">
             <p>All rights reserved © 2023</p>
             <a href="#top">Go Up</a>
