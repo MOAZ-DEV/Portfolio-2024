@@ -13,6 +13,7 @@
   "devDependencies": {
     "nuxt": "^3.9.0",
     "vue": "^3.4.3",
+    "vue-loader": "^17.4.2",
     "vue-router": "^4.2.5"
   },
   "dependencies": {
