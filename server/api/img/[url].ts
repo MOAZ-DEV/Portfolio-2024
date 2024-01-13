@@ -1,12 +1,12 @@
 import list from "../../../public/projects.json";
-import fs from "node:fs";
+import {readFileSync} from "node:fs";
 import path from "node:path";
 
 export default
     defineEventHandler((event) => {
 
         let result: any,
-            filePath,
+            filePath:string,
             CallName = getRouterParam(event, 'url');
 
         list.forEach(p =>
@@ -15,7 +15,7 @@ export default
                     process.cwd(),
                     'public/images/',
                     `${CallName}.png`);
-                result = fs.readFile(filePath, 'utf-8');
+                result = readFileSync(filePath);
             } : null);
 
         return result;
