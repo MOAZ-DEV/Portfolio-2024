@@ -15,7 +15,7 @@ export default
                     process.cwd(),
                     'public/images/',
                     `${CallName}.png`);
-                result = fs.promises.readFile(filePath, 'utf-8');
+                result = fs.readFile(filePath, 'utf-8');
             } : null);
 
         return result;
