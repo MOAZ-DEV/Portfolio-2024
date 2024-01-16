@@ -38,6 +38,8 @@ nav {
             width: calc(5rem + 7vw);
             padding: 0 25px;
 
+            color: #000;
+
             &.action {
                 display: flex;
 
@@ -57,6 +59,7 @@ nav {
                     border-radius: 45px;
 
                     filter: none;
+                    color: #fff;
                 }
             }
         }
