@@ -3,7 +3,7 @@
     <img class="logo" src="~/assets/logo.svg" alt="logo">
 
     <div class="menu-wrap">
-      <button class="action" href="~/assets/Moaaz - Resume.pdf"><span>Resume</span></button>
+      <button class="action"><a href="~/assets/Moaaz - Resume.pdf">Resume</a></button>
       <button>FAQ</button>
     </div>
     <button class="menu-btn"><img src="~/assets/menu.svg" /></button>
