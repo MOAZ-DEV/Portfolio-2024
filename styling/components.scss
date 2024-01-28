@@ -79,11 +79,7 @@ nav {
             1.5s border-radius,
             0.5s filter;
 
-        img {
-            max-height: 14px;
-            color: #000;
-    
-            box-sizing: border-box;
+        a {
             filter: none;
         }
         &:hover {
