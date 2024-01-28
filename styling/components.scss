@@ -74,6 +74,9 @@ nav {
         width: calc(45px + 1rem);
 
         background: white;
+        border: solid 1px black;
+        border-top: 0;
+        border-bottom: 0;
         box-sizing: border-box;
         transition:
             1.5s border-radius,
@@ -81,6 +84,9 @@ nav {
 
         a {
             filter: none;
+            img {
+
+            }
         }
         &:hover {
             filter: invert(1);
