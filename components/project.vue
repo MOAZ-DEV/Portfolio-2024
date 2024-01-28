@@ -8,7 +8,7 @@
             <h2>
                 {{ data.title }}
             </h2>
-            <img :src="`http://localhost:3000/api/img/${data.img}`" alt="">
+            <img :src="`images/${data.img}`" alt="">
         </div>
         <div class="row">
             <p>{{data.describtion}}</p>
