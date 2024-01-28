@@ -328,11 +328,15 @@ div.projects-section {
                     top: 50%;
 
                     height: fit-content;
-                    width: 900px;
+                    width: calc(100vw - 75vh);
 
                     filter: blur(30px) opacity(0.75);
                     transition: filter 1s ease-in-out;
                     transform: translateY(-50%);
+
+                    @include sc(700px) {
+                        width: calc(100vw - 5vh);
+                    }
                 }
             }
 
