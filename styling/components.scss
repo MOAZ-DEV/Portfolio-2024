@@ -84,6 +84,7 @@ nav {
             color: #000;
     
             box-sizing: border-box;
+            filter: none;
         }
         &:hover {
             filter: invert(1);
