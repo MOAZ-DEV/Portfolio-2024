@@ -267,6 +267,8 @@ div.projects-section {
             z-index: 300;
             overflow: hidden;
 
+            scroll-snap-align: center;
+
             @include sc(750px) {
                 padding: 25px 25px;
                 border-radius: 25px;
